@@ -1,0 +1,23 @@
+{
+  "stepAssemblies": [
+    { "assembly": "WebAutomationFramework" }
+  ],
+  "bindingCulture": {
+    "language": "en-us"
+  },
+  "language": {
+    "feature": "en-us"
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Error"
+  },
+  "plugins": [
+    {
+      "name": "SpecFlow.Plus.LivingDocPlugin",
+      "parameters": {
+        "enabled": true,
+        "outputPath": "TestResults/LivingDoc.html"
+      }
+    }
+  ]
+} 

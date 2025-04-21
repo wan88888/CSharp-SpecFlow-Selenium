@@ -1,0 +1,70 @@
+# 编译输出
+bin/
+obj/
+
+# 测试结果
+TestResults/
+*/TestResults/
+**/TestLogs/
+**/Screenshots/
+
+# Visual Studio 文件
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# 临时文件
+*.tmp
+*.swp
+*.log
+*.bak
+*.cache
+.DS_Store
+
+# NuGet Packages
+packages/
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# MSTest 测试结果
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# SpecFlow 生成的文件
+*.feature.cs
+
+# 运行时生成的文件
+*_i.c
+*_p.c
+*.ilk
+*_i.h
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc 
